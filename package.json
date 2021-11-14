@@ -1,0 +1,25 @@
+{
+  "name": "react-store-maker",
+  "version": "1.0.0",
+  "description": "a simple utility function to create stores with context api in react",
+  "main": "index.tsx",
+  "repository": "https://github.com/adiathasan/react-store-maker",
+  "author": "Adiat Hasan <adiathasan.me@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "keywords": [
+    "react",
+    "step",
+    "multistep",
+    "wizard",
+    "es6",
+    "react-context",
+    "react-hooks"
+  ],
+  "devDependencies": {
+    "@types/react": "^17.0.34",
+    "react": "^17.0.2"
+  }
+}
