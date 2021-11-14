@@ -4,6 +4,8 @@
   "description": "a simple utility function to create stores with context api in react",
   "main": "src/index.ts",
   "repository": "https://github.com/adiathasan/react-store-maker",
+  "homepage": "https://github.com/adiathasan/react-store-maker",
+  "bugs": "https://github.com/adiathasan/react-store-maker",
   "author": "Adiat Hasan <adiathasan.me@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
