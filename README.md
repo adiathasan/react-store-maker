@@ -12,7 +12,7 @@ or
 yarn add react-store-maker
 ```
 
-**creating store with createStore function!**
+**Creating store with createStore function!**
 
 ```typescript
 // ThemeConfig.ts
@@ -58,7 +58,7 @@ export const useTheme = () => {
 };
 ```
 
-**use it any where in your app after nesting at the top level**
+**Use it any where in your app after nesting at the top level**
 
 ```tsx
 // App.tsx
@@ -91,7 +91,7 @@ export const ToggleThemeBtn = () => {
 };
 ```
 
-**use multiple store providers for seperating logic**
+**Use multiple store providers for seperating logic**
 
 ```tsx
 const App = () => {
