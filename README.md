@@ -16,7 +16,7 @@ yarn add react-store-maker
 
 ```typescript
 // ThemeConfig.ts
-import { createStore } from 'react-store-maker';
+import { createStore } from './src';
 
 export type Theme = 'light' | 'dark';
 

@@ -2,7 +2,7 @@
   "name": "react-store-maker",
   "version": "1.0.0",
   "description": "a simple utility function to create stores with context api in react",
-  "main": "index.tsx",
+  "main": "src/index.ts",
   "repository": "https://github.com/adiathasan/react-store-maker",
   "author": "Adiat Hasan <adiathasan.me@gmail.com>",
   "license": "MIT",
