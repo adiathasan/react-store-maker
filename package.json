@@ -1,27 +1,29 @@
 {
   "name": "react-store-maker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple utility function to create stores with context api in react",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "repository": "https://github.com/adiathasan/react-store-maker",
   "homepage": "https://github.com/adiathasan/react-store-maker",
   "bugs": "https://github.com/adiathasan/react-store-maker",
   "author": "Adiat Hasan <adiathasan.me@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "warm": "yarn build",
+    "build": "rm -rf ./dist && tsc"
+  },
   "peerDependencies": {
     "react": ">=17.0.0"
   },
   "keywords": [
     "react",
-    "step",
-    "multistep",
-    "wizard",
     "es6",
     "react-context",
     "react-hooks"
   ],
   "devDependencies": {
     "@types/react": "^17.0.34",
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "typescript": "^4.4.4"
   }
 }
