@@ -1,6 +1,6 @@
 {
   "name": "react-store-maker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a simple utility function to create stores with context api in react",
   "main": "dist/index.js",
   "repository": "https://github.com/adiathasan/react-store-maker",
