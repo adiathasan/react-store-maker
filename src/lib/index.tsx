@@ -20,7 +20,7 @@ export interface StoreOptions {
 export const createStore = <S, A>(
 	init: S,
 	reducer: (state: S, action: A) => S,
-	{ useStoreName = 'useStore', useDispatchName = 'useDispatch', providerName = 'Provider' }: StoreOptions
+	{ useStoreName = 'useStore', useDispatchName = 'useDispatch', providerName = 'Provider' }: StoreOptions = {}
 ) => {
 	const StoreContext = React.createContext<any>(null);
 	const StoreDispatchContext = React.createContext<any>(null);
